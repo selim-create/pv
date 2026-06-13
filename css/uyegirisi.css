@@ -1,0 +1,63 @@
+a.homeButtonLoginPage { float: left; height: 40px; color: #000; font-size: 14px; font-weight: 500; text-transform: Uppercase; border-radius: 20px; line-height: 42px; padding: 0 19px; font-family: 'Roboto', sans-serif; }
+a.homeButtonLoginPage i { float: left; margin: 14px 11px 0 0; width: 14px; height: 12px; background: url("../img/loginPage/404ArrowBlack.png")no-repeat; }
+body.loginPageBody a.homeButtonLoginPage { position: absolute; }
+/*
+	LOGIN PAGE
+	======================================
+*/
+
+body.loginPageBody { position: absolute; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; min-height: 100vh; margin: 0; box-sizing: border-box; will-change: background-position; background-size: contain; background: url("../img/loginPage/loginpage.png") top center #38135e; background-size: auto 100vh; }
+body.loginPageBody:before { content: ''; display: block; position: fixed; top: 0; right: 0; bottom: 0; left: 0; opacity: 1; z-index: auto; }
+body.loginPageBody #site { position: relative; }
+body.loginPageBody .wrapper { width: 100%; display: block; height: auto; float: left; padding: 58px 0 58px 0; }
+body.loginPageBody .wrapper .text { float: left; width: calc(100% - 500px); padding-top: 100px; }
+body.loginPageBody .wrapper .text h1 { float: left; width: 100%; display: block; height: auto; font-size: 40px; color: #FFFFFF; line-height: 50px; font-weight: 700; }
+body.loginPageBody .wrapper .text span { float: left; width: 100%; display: block; height: auto; font-size: 16px; color: #FFFFFF; font-weight: 400; line-height: 30px; padding-top: 20px; }
+body.loginPageBody .wrapper .text .rocket { display: block; float: right; position: relative; left: 68px; width: 351px; height: 287px; background: url("../img/loginPage/rocket.png")no-repeat; }
+body.loginPageBody .wrapper .right { float: right; width: 460px; height: auto; }
+body.loginPageBody .wrapper .right .guy { display: block; margin-right: 22px; float: right; width: 287px; height: 255px; background: url("../img/loginPage/guy.png")no-repeat; }
+body.loginPageBody .wrapper .right .box { position: relative; display: block; float: left; width: 100%; height: auto; background: #FFFFFF; padding: 0 0 31px 0; border-bottom-right-radius: 30px; border-top-left-radius: 30px; border-top-right-radius: 4px; border-bottom-left-radius: 4px; }
+body.loginPageBody .wrapper .right .box:before { position: absolute; top: -61px; left: -42px; z-index: 2; content: ""; width: 115px; height: 114px; background: url("../img/loginPage/joystick.png")no-repeat; }
+body.loginPageBody .wrapper .right .box ul.tabHead { display: block; float: left; width: 100%; border-bottom: 1px solid #e6ecf6; }
+body.loginPageBody .wrapper .right .box ul.tabHead li:first-child { border-top-left-radius: 30px; }
+body.loginPageBody .wrapper .right .box ul.tabHead li { position: relative; background: #fafbfd; cursor: pointer; display: block; float: left; font-weight: 700; font-size: 16px; color: #9b99af; line-height: 59px; width: calc(50% - 0px); text-transform: Uppercase; text-align: center; border-top-right-radius: 4px; }
+body.loginPageBody .wrapper .right .box ul.tabHead li:nth-child(2) { border-left: 1px solid #e6ecf6; }
+body.loginPageBody .wrapper .right .box ul.tabHead li.active { background: #FFFFFF; color: #60668e; }
+body.loginPageBody .wrapper .right .box ul.tabHead li:nth-child(2).active:before { position: absolute; top: 0; left: -5px; content: ""; width: 4px; height: 100%; background: #fafbfd; }
+body.loginPageBody .wrapper .right .box .formTabContent {font-family: 'Roboto', sans-serif;float: left;display: block;width: 100%;height: auto;padding: 29px 30px 0 30px;float: none;display: inline-block;}
+body.loginPageBody .wrapper .right .box .formTabContent input { float: left; width: 100%; display: block; border-radius: 3.5px; }
+body.loginPageBody .wrapper .right .box .formTabContent input.textInput { transition: 300ms; font-family: 'Roboto', sans-serif; font-weight: 600; color: #9b99af; font-size: 15px; float: left; width: 100%; display: block; border: 1px solid #e6ecf6; height: 50px; margin-bottom: 19px; padding: 0 19px; }
+ body.loginPageBody .wrapper .right .box .formTabContent input.textInput::placeholder {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 400;
+ color: #545454;
+}
+body.loginPageBody .wrapper .right .box .formTabContent input.textInput:focus { border: 1px solid #b88bff; transition: 300ms; }
+ body.loginPageBody .wrapper .right .box .formTabContent input.textInput:focus::placeholder {
+ color: #545454;
+ transition: 300ms;
+ font-family: 'Roboto', sans-serif;
+}
+body.loginPageBody .wrapper .right .box .unuttum a { height: 50px; color: #FFFFFF; cursor: pointer; font-size: 16px; font-weight: 600; font-family: 'Roboto', sans-serif; margin-top: 11px; display: block; border-radius: 5px; text-align: center; line-height: 50px; }
+body.loginPageBody .wrapper .right .box .formTabContent input.submitDefault { height: 50px; color: #FFFFFF; cursor: pointer; font-size: 16px; font-weight: 600; font-family: 'Roboto', sans-serif; margin-top: 11px; }
+body.loginPageBody .wrapper .right .box .formTabContent span.divider { margin-bottom: 18px; float: left; padding: 0 23px; background: #FFFFFF; width: 100%; position: relative; display: block; text-align: center; font-size: 12px; font-weight: 600; color: #9399bb; margin-top: 30px; }
+body.loginPageBody .wrapper .right .box .formTabContent span.divider:before { position: absolute; content: ""; left: 0; top: 5px; width: calc(50% - 30px); height: 1px; background: #9399bb; }
+body.loginPageBody .wrapper .right .box .formTabContent span.divider:after { position: absolute; content: ""; right: 0; top: 5px; width: calc(50% - 30px); height: 1px; background: #9399bb; }
+body.loginPageBody .wrapper .right .box .formTabContent p.check { display: block; font-size: 14px; font-weight: 400; margin-top: 10px; width: 100%; padding: 0 20px; height: 38px; line-height: 38px; float: left; border-radius: 3.5px; text-align: left; }
+body.loginPageBody .wrapper .right .box .formTabContent p.check.yellow { background: #fef6dd; color: #a48f4b; }
+body.loginPageBody .wrapper .right .box .formTabContent p.check.green { background: #eef8e6; color: #8abc52; }
+body.loginPageBody .wrapper .right .box .formTabContent p.check i.close { cursor: pointer; float: right; margin-top: 15px; width: 9px; height: 9px; background: url("../img/loginPage/close.png")no-repeat; }
+body.loginPageBody .wrapper .right .box .formTabContent label.error { display: block; float: left; padding-bottom: 18px; font-size: 14px; width: 100%; font-family: Roboto; font-weight: 400; color: #fb886f; }
+
+@media only screen and (max-width: 768px) {
+body.loginPageBody .wrapper {padding: 30px 0;height: auto;}
+body.loginPageBody a.homeButtonLoginPage { position: relative; margin-bottom: 30px; }
+body.loginPageBody .wrapper .text .rocket { display: none; }
+body.loginPageBody .wrapper .text h1 { display: none; }
+body.loginPageBody .wrapper .text .aciklama { visibility: hidden; }
+body.loginPageBody .wrapper .right {width: 100%;left: 0px;position: relative;display: inline-block;top: 0px;padding: 0px !important;}
+.wrapper { height: 1000px; }
+body.loginPageBody .wrapper .text {
+    display: none;
+}
+}

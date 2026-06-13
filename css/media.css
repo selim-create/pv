@@ -1,0 +1,472 @@
+@media only screen and (max-width: 1340px) {
+		.currencyBar { height: auto; display: none; }
+	.site-wrapper {
+    top: 76px !important;
+}
+	body.home.blog.logged-in .site-wrapper {
+    top: 78px!important;
+}
+	.blackShape { display: none; }
+header { top: 0px; }
+.site-wrapper { top: 78px; }
+	button.toggle-menu {
+    display: block;
+    padding: 36px 10px 25px 15px;
+}
+}
+
+@media only screen and (max-width: 1220px) {
+}
+
+@media only screen and (max-width: 1170px) {
+	.news-abone {
+	    display: none;
+	}
+	.sc-options-left {
+		margin-right: 0;
+	}
+.currencyShowcase .half .centerBox { margin-bottom: 30px !important; margin-top: 0px !important; }
+.container { width: 100%; padding: 0 20px; }
+.site-wrapper { width: 100%; }
+.currencyBar { height: auto; display: none; }
+header .mainBar .nav { display: none; }
+header .mainBar .right i.mobileMenu { display: block; }
+.creditCalculator { width: 50%; }
+.currencyShowcase { width: calc(50% - 20px); }
+.creditCalculatorBox .form-group-half .form-control { border-radius: 0px; }
+footer.footer { margin: 0; }
+footer.footer .footerTop { padding-top: 30px; height: auto; padding-bottom: 30px; }
+.creditCalculator { margin-top: 0px; }
+footer.footer .contentFooter .footerMenu { width: 25%; }
+footer.footer .contentFooter .footerMenu.tripleMenu { width: 75%; }
+footer.footer .contentFooter .footerMenu ul li { width: 100%; }
+footer.footer .contentFooter .footerMenu.footerMenu.tripleMenu ul li { width: 33.3333%; }
+footer.footer .footerBottom { height: auto; line-height: 24px; text-align: center; }
+footer.footer .footerBottom .copyright { float: none; padding: 15px 0; }
+footer.footer .footerBottom .footerSocial { float: none; height: 50px; margin: 0 auto; display: table; }
+.currencyShowcase { margin-bottom: 30px !important; }
+.currencyShowcase.half .currencyTable.kriptolar tr.head select { border-color: #b0b0b0; }
+.creditCalculator { margin-bottom: 30px; }
+.financeTable tr { height: 46px !important; }
+#wpadminbar { display: none; }
+.logged-in.admin-bar { position: relative; top: 0px; }
+.logged-in.admin-bar .currencyBar { top: 0px; }
+.logged-in.admin-bar header { top: 0px; }
+.logged-in.admin-bar .site-wrapper { top: 62px!important; }
+}
+
+@media only screen and (max-width: 1024px) {
+.currencyShowcase .half .centerBox { margin-bottom: 30px !important; margin-top: 0px !important; }
+.creditCalculator { margin-bottom: 30px; }
+.creditCalculator { margin-top: 0px; }
+.vertSlider { display: none; }
+.currencyShowcase.half.centerBox { margin-left: 0px; margin-top: 0px; }
+.currencyShowcase.half.rightBox { margin-left: 0px; margin-top: 0px; }
+.creditCalculatorBox .form-group-half .form-control { border-radius: 0px; }
+section.content .widebar .widget .lastNews .item .content-summary .title { margin-top: 9px }
+section.content .widebar .widget .lastNews .item .content-summary .categories { display: none; }
+section.content .widebar .widget .categoryTab .catTabContent .item .author { display: none; }
+.currencyShowcase.half { width: 100%; float: left; }
+.creditCalculator { float: none; width: 100%; height: auto; }
+.currencyShowcase { float: none; width: 100%; margin-left: 0; overflow-x: auto }
+.currencyTable span { width: 100%; }
+section.content .widebar { width: 100%; float: none; }
+section.content .sidebar { width: 100%; float: none; }
+.financeBlock { width: 223px; }
+.financeTable td { padding: 0 12.5px; }
+.financeTable td:last-child { width: 50%; white-space: nowrap; }
+section.content .widebar .widget .categoryTab .catTabContent .item { width: calc(50% - 10px); margin-right: 20px; }
+section.content .widebar .widget .categoryTab .catTabContent .item .thumb { width: 100%; }
+section.content .widebar .widget .categoryTab .catTabContent .item:nth-child(2n) { margin-right: 0px !important; }
+section.content .widebar .widget .categoryTab .catTabContent .item:nth-child(3n) { margin-right: 20px; }
+section.content .sidebar .widget .banner img { margin: 0 auto; }
+section.content .sidebar .widget .popularNews .item .thumb { text-align: center; }
+.blackShape { display: none; }
+header { top: 0px; }
+.site-wrapper { top: 78px; }
+.creditCalculator { margin-top: 7px; }
+.creditCalculator { margin-bottom: 30px; }
+.currencyShowcase { margin-bottom: 30px !important; }
+.currencyShowcase.half .currencyTable.kriptolar tr.head select { border-color: #b0b0b0; }
+.financeTable tr { height: 46px !important; }
+#wpadminbar { display: none; }
+}
+
+@media only screen and (max-width: 769px) {
+	header .mainBar .logo { height:70px; }
+a.sc-options-user b {
+	display: none;
+}
+	.main-slider {
+		width: calc(100% + 20px);
+		min-width: calc(100% + 42px);
+		margin-left: -21px!important;
+    margin-top: -21px!important;
+}
+	.cMobile{display: block;    height: 90px;min-height: 90px;width: auto;overflow-x: scroll;}
+	.cMobile ul{display: flex;}
+	.cMobile ul li {width: 100px; padding-right: 12px;margin-top: 10px;    margin-right: 10px;}
+	.currencyBar ul li:last-child{width: 100px !important; padding-right: 12px;margin-top: 10px;}
+	.currencyBar ul li .currencyRate{width: 66px;}
+	/*iletisim*/
+	.contactPage .contactBox {width:100%;height:auto}
+	.contactPage:before {height:100%;}
+	.contactPage .contactBox .left {display:none;}
+	.contactPage .contactBox .right {width:100%;padding:36px 0px 20px 0px;position: relative;}
+	.contactPage .contactBox .left:before {display:none;}
+	.contactPageBottom {display:none}
+	.site-wrapper.contact {top:110px!important;height:450px;}
+	.contactPage {margin-top:0px!important;padding-top:0px!important;}
+	footer.footer.iletisim {top:90px!important;}
+
+.currencyShowcase .half .centerBox { margin-bottom: 30px !important; margin-top: 0px !important; }
+.creditCalculator { margin-bottom: 30px; }
+.creditCalculator { margin-top: 0px; }
+.breadcrumb { display: none; }
+h1.postTitle { margin-top: 0px; }
+.singleWrapper .singleContent .mainContent .main .infos .author ul li.time { display: none }
+.creditCalculatorBox .form-group-half .form-control { border-radius: 0px; }
+.singleWrapper .singleContent .mainContent .main ul.buttons li.fb { text-indent: -99999px; width: auto; padding: 0 3px 0 12px; border-radius: 4px; }
+.singleWrapper .singleContent .mainContent .main ul.buttons li.tw { text-indent: -99999px; width: auto; padding: 0 0px 0 8px; border-radius: 4px; }
+section.content .widebar .widget .lastNews .item { height: auto; }
+section.content .widebar .widget .lastNews .item .thumb { float: none; width: 100%; overflow: hidden; }
+section.content .widebar .widget .lastNews .item .thumb img { width: 100%; }
+section.content .widebar .widget .lastNews .item .content-summary { float: none; width: 100%; }
+section.content .widebar .widget .lastNews .item .content-summary .categories { margin-left: 0; height: 28px; }
+.financeBlock { width: 100%; margin-right: 0; margin-bottom: 20px; }
+section.content .widebar .widget .categoryTab .tabHead { height: 50px; }
+section.content .widebar .widget .categoryTab .tabHead ul li { width: 20%; padding-left: 0px !important; }
+section.content .widebar .widget .categoryTab .tabHead ul li span { display: none; }
+.borsaValue span { display: none; }
+section.content .sidebar .widget .banner img { max-width: 100%; }
+section.content .sidebar .widget .popularNews .item .thumb img { width: 100%; }
+footer.footer .contentFooter .footerMenu { width: 33.3333%; }
+footer.footer .contentFooter .footerMenu:first-child { display: none; }
+footer.footer .contentFooter .footerMenu.tripleMenu { width: 100%; }
+footer.footer .contentFooter .footerMenu ul li { width: 100%; }
+footer.footer .contentFooter .footerMenu { display: none; }
+footer.footer .footerBottom { margin-top: 0px; }
+footer.footer { min-height: auto; top: 93px!important; }footer.footer .footerBottom {
+    background: #262b3c;
+    padding-bottom: 100px!important;
+}
+footer.footer .footerTop { padding-bottom: 5px; }
+.currencyShowcase.half .currencyTable.kriptolar tr.head select { border-color: #b0b0b0; }
+.currencyShowcase { margin-bottom: 30px !important; }
+.dovizCeviriciSid label.miktar input { box-shadow: none; border-radius: 0; }
+.right { position: absolute; right: 15px; }
+#wpadminbar { display: none; }
+.mainContent.onsAltin { margin-top: -15px; }
+h1.postTitle.centerli { float: none; text-align: center; display: inline-block; }
+.singleContent .currencyShowcase tr.alt { position: relative; height: 43px; }
+.singleContent .currencyShowcase tr.alt td { height: 43px; position: relative; }
+.singleContent .currencyShowcase tr.alt td b { position: absolute; top: 0; }
+.singleContent .currencyShowcase tr.alt.dKurlariS td b { position: relative; top: 0; }
+.singleContent .currencyShowcase tr.alt td a { position: absolute; top: 0; }
+.singleContent .currencyShowcase tr.alt td span { position: absolute; top: 12px; color: #333; font-size: 14px; font-weight: bold; }
+tr.alt i.decrease { top: 19px!important; }
+tr.alt i.increase { top: 19px!important; }
+.currencyTable tr th.sagagit { margin-left: 6px; }
+.currencyTable tr th.sagagit2 { margin-left: -9px; }
+.currencyTable tr th.sagagit3 { margin-left: -10px; }
+tr.alt.dKurlariS i.decrease { margin-left: -10px; }
+tr.alt.dKurlariS i.increase { margin-left: -10px; }
+.currencyShowcase.mobileBottomNo { margin-bottom: 0px!important; }
+.currency-quantity { box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; appearance: none; -moz-appearance: none; -webkit-appearance: none; }
+.singleContent .currencyShowcase tr.alt.dKurlariS2 td.ikincitd { bottom: auto!important; }
+.singleContent .currencyShowcase tr.alt.dKurlariS2 td.ikincitd span { margin-left: 10px; }
+.singleContent .currencyShowcase tr.alt.dKurlariSaa td a { width: 90%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+tr.alt.dKurlariSaa i.decrease { margin-left: 0px; }
+tr.alt.dKurlariSaa i.increase { margin-left: 0px; }
+.singleContent .currencyShowcase tr.alt.sonn td a { width: 65%; }
+.currencyTable tr th.alisSo { margin-left: -11px; }
+.currencyTable tr th.o { margin-left: -13px; }
+.singleContent .currencyShowcase tr.alt.ennson td span { text-align: left; margin-left: 3px; }
+button.toggle-menu{display:block;padding: 36px 10px 25px 15px;}
+header .mainBar .right i.user {
+    margin-right: 10px;
+}
+header .mainBar .right i.search {
+     background: url(../img/svg/search.svg)no-repeat;
+}
+div.wpcf7-response-output {
+    margin: 0px;
+    padding: 10px;
+    line-height: initial;
+    color: #333333;
+}.mainBar .loggedIn ul li {
+    float: left;
+}
+
+.mainBar .loggedIn ul li a {
+    padding: 0 15px;
+}
+
+.mainBar .loggedIn ul {
+    width: 150px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+	.creditCalculator,section.content.home .widebar .widget { margin-bottom: 20px!important; }
+	.currencyShowcase { margin-bottom: 20px !important; }
+	.creditCalculatorBox {
+	    padding: 16px;
+	}
+	.sc-options {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.sc-options-left {
+    margin: 0;
+}
+.shrrt {
+	display: none;
+}
+a.sc-options-user {
+    margin-right: 8px;
+}
+.sc-options-left .options-icons {
+    padding: 0;
+    margin: 0 8px 0 0;
+}
+.options-icons p {
+    display: none;
+}
+.news-abone {
+    display: none;
+}
+	.main-slider .owl-dots .owl-dot {
+    margin: 12px 2.5px 0 2.5px;
+}
+
+.main-slider .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+}
+
+.commentsField {
+    margin-top: 24px;
+}
+
+.main-slider {
+    margin: 0 auto 10px auto;
+}
+
+.currencyTable tr.head {
+    height: 43px;
+}
+
+.currencyTable tr th {
+    padding: 0 17px;
+		height: 46px;
+		line-height: 46px;
+}
+
+	.postInner p {
+    font-size: 16px;
+    line-height: 1.75em;
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+.postInner h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+		line-height: 28px;
+}
+.currencyShowcase .half .centerBox { margin-bottom: 30px !important; margin-top: 0px !important; }
+.creditCalculator { margin-top: 0px; }
+h1.postTitle {      font-size: 19px!important;
+    line-height: 28px;
+    margin-bottom: 10px;}
+.singleWrapper .singleContent { width: 100%; }
+.creditCalculatorBox .form-group-half .form-control { border-radius: 0px; }
+.singleWrapper .singleContent .mainContent .main ul.buttons li.views { display: none; }
+.postInner .relatedPost { height: 95px; margin-bottom: 15px;}
+.relatedPosts {
+    margin-top: 12px;
+}
+.singleWrapper .mainContentArea:not(:first-child) h1.postTitle {
+    margin-top: 10px;
+}
+.postInner .relatedPost .text .eT, .postInner .relatedPost .text p { display: none; }
+.postInner .relatedPost .thumb { width: 143px; height: 95px; }
+.postInner .relatedPost .thumb img { min-height: 95px; }
+.postInner .relatedPost .text { width: calc(100% - 143px); height: 95px;
+padding: 11px 12px 0 12px;
+font-size: 15px;
+}
+.postInner .relatedPost .text span.pTitle a {
+	-webkit-line-clamp: 3;
+	    -webkit-box-orient: vertical;
+	    display: -webkit-box;
+	 padding-top: 3px; font-size: 16px; line-height: 22px; overflow: initial; white-space: normal; text-overflow: initial;
+	 overflow: hidden;
+	 font-size: 15px;
+  }
+.postInner iframe { height: 275px; }
+.tags { display: none; }
+.relatedPosts .posts .item { width: 100%; margin-bottom: 20px; }
+.relatedPosts .posts .item:last-child { margin-bottom: 0px; }
+.commentWhite .commentForm ul li.half { width: 100%; }
+.commentWhite .commentForm ul li.half:first-child { margin-bottom: 23px; }
+.commentListing .comment .avatar { display: none; }
+.commentListing .comment .right {
+    float: none;
+    position: relative;
+}
+.commentListing .comment .right, .commentListing .children .comment { width: 100%; }
+.commentWhite .commentForm ul li.one { min-height: 185px; position: relative; }
+.commentWhite .commentForm ul li.one textarea { height: 185px; min-height: 185px; width: 100%;}
+.commentWhite .commentForm ul li.one .submit { position: absolute; bottom: 20px; left: 20px; right: 0; width: calc(100% - 40px); border-radius: 4px; }
+.commentListing .comment .right ul div.reply a { margin-right: 5px; }
+.creditCalculatorHead { height: auto; position: relative; border-bottom: none!important; background: #fab915; float: left; }
+.creditCalculatorHead:before { position: absolute; left: -1px; top: 0px; content: ""; width: 1px; height: calc(100% - 0px); background: #fab915; }
+.creditCalculatorHead:after { position: absolute; right: -1px; top: 0px; content: ""; width: 1px; height: calc(100% - 0px); background: #fab915; }
+.creditCalculatorHead ul li.active:before { display: none; }
+.creditCalculatorHead ul li.active { background: rgba(0,0,0,.10)!important; }
+.creditCalculatorHead ul li.active:after { display: none; }
+.creditCalculatorHead ul li { height: 52px; width: 50%; text-align: center; border-right: none; line-height: 52px; }
+.creditCalculatorHead ul li:first-child { border-bottom: 1px solid rgba(0,0,0,.10); border-right: 1px solid rgba(0,0,0,.10); }
+.creditCalculatorHead ul li.active:first-child { border-right: none; }
+.creditCalculatorHead ul li:nth-child(2) { border-bottom: 1px solid rgba(0,0,0,.10); }
+.creditCalculatorHead ul li:nth-child(3) { border-right: 1px solid rgba(0,0,0,.10); }
+.creditCalculatorHead ul li.active:nth-child(3) { border-right: none; }
+.creditCalculatorHead ul li.active { border: none!important; }
+.creditCalculatorHead ul li span { display: block; margin-top: 0px; text-transform: Uppercase; font-size: 14px; font-weight: 700; color: rgba(0,0,0,.40); }
+.creditCalculatorHead ul li i { display: none; }
+.creditCalculator { border-top: none; }
+section.content .widebar .widget .categoryTab .catTabContent .item .thumb { height: auto; }
+footer.footer .contentFooter .footerMenu.footerMenu.tripleMenu ul li { width: 100%; text-align: center; }
+footer.footer .contentFooter .footerMenu { width: 100%; text-align: center; }
+footer.footer .contentFooter .footerMenu ul li { width: 100% !important; }
+.currencyTable tr th:nth-child(4) { display: none; }
+.currencyTable tr td:nth-child(4) { display: none; }
+.currencyTable tr td a:nth-child(1) { overflow: hidden; height: 36px; }
+.currencyShowcase.half .currencyTable.kriptolar tr.head select { right: -17px; width: 137px; border-color: #b0b0b0; }
+.currencyShowcase.half .currencyTable.kriptolar tr td:nth-child(2) { margin-left: 55px; }
+.currencyShowcase { margin-bottom: 20px !important; }
+section.content .widebar .widget:last-child {
+    margin-bottom: 0px!important;
+}
+.dovizCeviriciSid label.miktar input { box-shadow: none; border-radius: 0; }
+.financeTable tr { height: 46px !important; }
+.right { position: absolute; right: 0; }
+#wpadminbar { display: none; }
+.dovizCeviriciSid label.miktar { padding-left: 0px; padding-right: 0px; }
+.dovizCeviriciSid label.paraBirimi { padding-left: 0px; padding-right: 0px; }
+.dovizCeviriciSid label.cevrBirim { padding-left: 0px; padding-right: 0px; }
+.dovizCeviriciSid span.result { padding-left: 0px; padding-right: 0px; margin-left: 0px; width: 100%; }
+.dovizCeviriciSid .currencyProcess { margin-left: 0px; }
+.currencyShowcase.half .currencyTable.kriptolar tr.head select { width: 125px; }
+.widebar .widget .currencyConverter { height: auto; }
+.widebar .widget .currencyPriceBar { height: 150px; width: 100%; display: block; }
+.widebar .widget .currencyPriceBarName { width: 100%!important; }
+.widebar .widget .currencyPriceBarName:after { display: none }
+.widebar .widget .currencyPriceBarSell { margin-left: 0; display: block; text-align: center; }
+.widebar .widget .currencyPriceBarBuy { margin-left: 0; display: block; text-align: center; }
+.widebar .widget .shortcutConverter a:last-child { margin-bottom: 0px; }
+body.loginPageBody .wrapper .right { padding: 61.5px 25px 25px 25px; }
+body.loginPageBody .wrapper .right .box ul.tabHead li:first-child { border-top-left-radius: 4px; }
+body.loginPageBody a.homeButtonLoginPage { }
+.currencyTable i.decrease { top: 24px; }
+.dovizkurlari .currencyTable tr td:nth-child(2), .dovizkurlari .currencyTable tr td:nth-child(3) { padding-left: 27px !important; height: 45px;}
+.dovizkurlari .currencyTable tr td:nth-child(2), .dovizkurlari .currencyTable tr td:nth-child(3), .altinkurlari .currencyTable tr td:nth-child(2), .altinkurlari .currencyTable tr td:nth-child(3) { width: 85px; padding-right: 10px; }
+.altinkurlari .currencyTable tr th:nth-child(2), .altinkurlari .currencyTable tr th:nth-child(3) { text-align: center; }
+.dovizkurlari .currencyTable tr td:nth-child(2) {
+	padding-left: 20px!important;
+}
+.currencyShowcase.half .currencyTable.kriptolar tr.head select {
+	height: 47px;
+}
+footer.footer {
+    top: 0px;
+    margin-top: 68px;
+}
+.financeTable.encokazalanlar tr th:nth-child(2) span {
+    right: inherit !important;
+}
+.financeTable.encokazalanlar tr th:nth-child(2)  {
+	text-align: center;
+}
+
+.financeTable.encokazalanlar tr td:nth-child(2) {
+    padding-left: 0px;
+    text-align: right;
+}
+.financeTable.encokazalanlar tr td:last-child {
+    padding: 0 20px 0 15px;
+    min-width: 139px;
+}
+
+.financeTable tr th:nth-child(1),
+.financeTable tr td:nth-child(1) {
+		padding-left: 20px!important;
+}
+
+.financeTable td:last-child {
+    text-align: right;
+		padding-right: 20px!important;
+}
+
+
+table.financeTable.encokartanlar tr th:last-child,
+.financeTable.encokislemgorenler tr th:last-child{
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+
+	/*iletisim*/
+	.contactPageBottom .infos ul li {width:calc(100% - 0px)!important;margin:0 0px 30px 0}
+	.search-form.open-form,.open-form input {
+    width:100%;
+}
+	.search-form span,.search-form input {
+    border-radius: 0!important;
+    padding: 18px 10px;
+}
+	.search-form {
+		bottom:-66px;
+	}
+
+}
+
+@media only screen and (max-width: 375px) {
+.currencyShowcase .half .centerBox { margin-bottom: 20px !important; margin-top: 0px !important; }
+.creditCalculator { margin-top: 0px; }
+.creditCalculator,section.content.home .widebar .widget { margin-bottom: 20px; }
+.creditCalculatorBox .form-group-half .form-control { border-radius: 0px; }
+.currencyShowcase.half .currencyTable.kriptolar tr.head select { border-color: #b0b0b0; }
+.currencyShowcase { margin-bottom: 20px !important; }
+.dovizCeviriciSid label.miktar input { box-shadow: none; border-radius: 0; }
+.financeTable tr { height: 46px !important; }
+.right { position: absolute; right: 0; }
+#wpadminbar { display: none; }
+.currencyTable i.decrease { top: 19px; }
+}
+
+
+@media only screen and (max-width: 320px) {
+	.main-slider {
+		width: calc(100% + 20px);
+		min-width: calc(100% + 20px);
+		margin-left: -10px!important;
+		margin-top: -10px!important;
+}
+.site-wrapper { padding: 10px; }
+.currencyShowcase .half .centerBox { margin-bottom: 20px !important; margin-top: 0px !important; }
+.creditCalculator { margin-top: 0px; }
+.creditCalculator,section.content.home .widebar .widget { margin-bottom: 20px; }
+.creditCalculatorBox .form-group-half .form-control { border-radius: 0px; }
+.currencyShowcase { margin-bottom: 20px !important; }
+.currencyShowcase.half .currencyTable.kriptolar tr.head select { border-color: #b0b0b0; }
+.dovizCeviriciSid label.miktar input { box-shadow: none; border-radius: 0; }
+.financeTable tr { height: 46px !important; }
+.right { position: absolute; right: 0; }
+#wpadminbar { display: none; }
+section.content .widebar .widget:last-child {
+    margin-bottom: 0px;
+}
+}

@@ -1,0 +1,33 @@
+.bib-content{position: relative; margin-top: 20px; margin-right: 20px;}
+.bib-dataArea .buttonList{margin-bottom: 20px;}
+.bib-list label{width: 50px; text-align: left; margin-right: 20px;display: inline-block;}
+.bib-list .bib-input{width: 600px;display: inline-block;height: 30px;}
+.bib-list .button-primary{margin-left: 70px;width: 600px;}
+.bib-dataArea .categoryArea{display: none;margin-bottom: 20px;}
+.bib-dataArea .categoryArea ul{height: 200px; overflow-y: auto;}
+.bib-dataArea .bib-data{margin-bottom: 20px;display: inline-block;}
+.bib-dataArea .bib-data .left{width: 700px;float:left;}
+.bib-dataArea .bib-data .right{width: 370px;float:right;}
+.bib-dataArea .bib-data .right ul{height: 200px; overflow-y: auto;}
+.bib-dataArea .bib-data .bottom{width: 1070px;float:left;}
+.bib-dataArea .bib-data .bottom .button{margin-left: 70px;width: 600px;}
+.bib-dataArea .bib-data .left label{width: 50px; text-align: left; margin-right: 20px;display: inline-block;}
+.bib-dataArea .bib-data .left .bib-input{width: 600px;display: inline-block;height: 30px;}
+.bib-dataArea .bib-data .left .bib-textarea{width: 600px;display: inline-block;height: 100px;}
+.bib-dataArea .bib-data .left .bib-textarea-label{height: 100px; float:left; line-height: 100px;}
+.bib-loading{display: none;}
+.bib-config{border: 1px solid #000; background-color: #fff;padding: 25px;}
+.bib-config label{width: 200px; text-align: left; margin-right: 20px;display: inline-block;}
+.bib-config .bib-input-config{width: 600px;display: inline-block;height: 30px;}
+.bib-config .bib-textarea-config{width: 600px;display: inline-block;height: 100px;}
+.bib-config .bib-textarea-config{height: 100px; float:left; line-height: 100px;}
+.bib-config .bib-config-desc{margin-left: 220px;}
+.bib-config .button{width: 600px;}
+.bib-cronTemplate .categorychecklist{
+  width: 300px;
+display: inline-block;
+max-height: 200px;
+overflow: scroll;
+}
+.bib-cronTemplate label{width: 150px;}
+.bib-cronTemplate form .selectCatLabel{float: left;margin-top: 15px;}
